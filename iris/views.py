@@ -15,7 +15,7 @@ def predict(request):
     exp3 = float(request.GET['exp3'])
     exp4 = float(request.GET['exp4'])
     rawdata = staticfiles_storage.path('Iris.csv')
-    dataset = pd.read_csv(rawdata)
+    dataset = pd.read_Iris.csv(rawdata)
     X = dataset.iloc[:,1:5].values
     y = dataset.iloc[:,5].values
     X_train, X_test, y_train, y_test = train_test_split(

@@ -35,7 +35,7 @@ body {
 .login-box h2 {
   margin: 0 0 30px;
   padding: 0;
-  color:indianred;
+  color:chartreuse;
   text-align: center;
 }
 
@@ -184,7 +184,7 @@ body {
   border: 2px solid #03e9f4;
   width: 100px;
   height: 35px;
-  color: #fff;
+  color:white;
   font-size: 18px;
   border-radius: 10px;
   margin: 0;
